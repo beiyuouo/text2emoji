@@ -9,12 +9,9 @@ var btn = document.getElementById("btn");
 function string2unicode(str) {
 	var ret = "";
 	var ustr = "";
-
 	for (var i = 0; i < str.length; i++) {
-
 		var code = str.charCodeAt(i);
 		var code16 = code.toString(16);
-
 		if (code < 0xf) {
 			ustr = "\\u" + "000" + code16;
 		} else if (code < 0xff) {
@@ -116,3 +113,4 @@ mp['强'] = '💪';
 mp['锁'] = '🔒';
 mp['对'] = '✔';
 mp['爷'] = '👴';
+mp['钱'] = '💰';
