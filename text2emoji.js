@@ -1,7 +1,7 @@
 var frm = document.getElementById("frm");
 var res = document.getElementById("res");
 var btn = document.getElementById("btn");
-
+var viw = document.getElementById("viw");
 
 // console.log('haha');
 // console.log(frm.value)
@@ -55,7 +55,8 @@ btn.addEventListener("click", function() {
 	// console.log(html);
 	// html = unicode2string(html)
 	console.log(html)
-	res.innerHTML = jEmoji.unifiedToHTML(html);
+	res.innerHTML = html
+	viw.innerHTML = jEmoji.unifiedToHTML(html);
 });
 
 
@@ -114,3 +115,5 @@ mp['锁'] = '🔒';
 mp['对'] = '✔';
 mp['爷'] = '👴';
 mp['钱'] = '💰';
+
+btn.click()
