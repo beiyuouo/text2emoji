@@ -1,5 +1,7 @@
 Just for fun XD!
+
 Support 54 Chinese characters to emoji for now!
+
 Online Demo: <a href="https://beiyuouo.github.io/game/text2emoji">link</a>
 
 #### Future
@@ -20,5 +22,5 @@ Online Demo: <a href="https://beiyuouo.github.io/game/text2emoji">link</a>
 - Add copyable part.
 
 #### v0.1.2
-- Support 54 Chinese characters to emoji.
+- Support 75 Chinese characters to emoji.
 - Fix some error emoji.
