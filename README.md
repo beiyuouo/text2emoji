@@ -18,3 +18,7 @@ Online Demo: <a href="https://beiyuouo.github.io/game/text2emoji">link</a>
 
 #### v0.1.1
 - Add copyable part.
+
+#### v0.1.2
+- Support 54 Chinese characters to emoji.
+- Fix some error emoji.
